@@ -17,13 +17,15 @@ Now you can run the scrypt by typing in the terminal
 status00
 ```
 ###UPDATER
-
+```
 sudo -i  #then enter your password
 wget https://raw.githubusercontent.com/giumbai/SSB/master/updater_ubuntu/update.sh
 mv update.sh /usr/bin/update
 chmod +x /usr/bin/update
 exit
+```
 Now you can run the scrypt by typing in the terminal 
+
 ```
 update
 ```
