@@ -3,7 +3,7 @@
 #System status Bash script (SSB)
 # =======================================================
 #Free space, breakin's and more
-#Version: 1.0.0
+#Version: 1.0.1
 #Supported Operating Systems: All Linux
 #Author Giumbai
 
@@ -28,7 +28,7 @@ if
 echo -e "$st2#####################################################################$n"
 printf "\tName of script:\t%s\n" $name
 printf "\tHostname is:\t%s\n" $HOSTNAME
-printf "\tSwappiness status:\t%s\n" $swp
+printf "\tSwappiness status:\t%s\n" $swp\%
 printf "\tThe FQDN is:\t%s\n" $fqdn
 printf "\tThe date is:\t%s\n" $ziua
 printf "\tThe time is:\t%s\n" $time0
