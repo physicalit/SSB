@@ -21,12 +21,14 @@ logfile="$logdate"_SSBreport.log
 name="SSB_by_giumbai"
 fqdn=$(hostname -d)
 breakin=$(cat /var/log/auth.log | grep break >> $logfile)
+swp=$(cat /proc/sys/vm/swappiness)
 
 if
 
 echo -e "$st2#####################################################################$n"
 printf "\tName of script:\t%s\n" $name
 printf "\tHostname is:\t%s\n" $HOSTNAME
+printf "\tSwappiness status:\t%s\n" $swp
 printf "\tThe FQDN is:\t%s\n" $fqdn
 printf "\tThe date is:\t%s\n" $ziua
 printf "\tThe time is:\t%s\n" $time0
